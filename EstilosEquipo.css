@@ -1,0 +1,172 @@
+header{
+    background:black;
+    background-size: cover;
+    height: 130px;
+    clip-path: polygon(50% 0%, 100% 0, 100% 100%, 50% 100%, 0 100%, 0 0);
+    z-index: 1;
+    margin-top:-1.7rem;
+}
+#menuToggle
+{
+  display: block;
+  position: relative;
+  top: 50px;
+  margin-left: 30px;
+  
+  z-index: 4;
+}
+.imglogo img{
+    width: 13rem;
+      margin-top: 30px;
+}
+.texto_Team{
+    text-align: center;
+    margin-top: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   
+}
+.texto_Team span{
+    color: blue;
+}
+.texto_Team h1{
+    font-size: 80px;
+}
+
+
+.team h2 {
+    font-size: 40px;
+    font-weight: 700;
+    margin: 2rem 0rem;
+    padding: 0;
+
+}
+
+.team h2 span {
+    color: #0077ff;
+}
+
+.team p {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.7;
+    color: #999999;
+    margin: 20px 0 60px;
+    padding: 0;
+}
+
+.team .box {
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    transition: all .5s ease-in-out;
+}
+
+.team .box .image {
+    position: relative;
+    height: 100%;
+}
+
+.team .overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(135deg, #ff9100 1%);
+    top: 0;
+    opacity: 0;
+    transition: all 0.5s ease-in-out;
+    z-index: 15;
+}
+
+.team .box .image .social-icons {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: #ffffff;
+    z-index: 20;
+    text-decoration: none;
+    opacity: 0;
+    margin-top: 100px;
+    padding: 8px 15px;
+    background: #ffffff;
+    border-radius: 35px;
+    transition: all 0.5s ease-in-out;
+}
+
+.team .box .image .social-icons i {
+    font-size: 18px;
+    padding: 0 7px;
+    color: #ff9100;
+}
+
+.team .box:hover .overlay {
+    opacity: 0.85;
+}
+
+.team .box:hover .social-icons {
+    margin-top: 0;
+    opacity: 1;
+}
+
+.team .box h3 {
+    margin: 0;
+    padding: 0;
+    margin-top: 20px;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.team .box h4 {
+    margin: 0;
+    padding: 0;
+    font-size: 13px;
+    color: #999999;
+    font-weight: 400;
+    margin-top: 5px;
+    padding-bottom: 25px;
+}
+
+.team .box:hover {
+    transform: translateY(-15px);
+}
+
+.History h2 i{
+    border: #232323 solid 5px;
+    border-radius: 500px;
+    padding: 55px 50px;;
+    font-size: 60px;
+}
+.historia p{
+    width: 80%;
+    margin: 0% 10%;
+}
+.foot{
+    width: 100%;
+    background: black;
+    font-family: 'Raleway', sans-serif;
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    margin-top: 30px;
+  }
+  .foot p{
+    color:white;
+    margin-bottom: 0px;
+    text-align:center;
+    margin-top: 20px;
+  }
+  .foot p.Icono{
+    font-size:30px;
+    margin-top:10px;
+  }
+  .social_icons a{
+   color:white;
+   font-size:25px;
+   margin: 0px 7px;
+  }
+  .social_icons a:hover{
+    color:rgb(0, 68, 255);
+    font-size:25px;
+    margin: 0px 7px;
+   }
+  .social_icons{
+    margin: 10px 0px;
+  }
